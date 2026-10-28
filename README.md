@@ -116,7 +116,7 @@ Open `http://127.0.0.1:5500` in your browser.
 
 **YOUR NAME**
 
-Cyber Security Student
+S Gayathri Jyothika
 
 ## 📄 License
 
