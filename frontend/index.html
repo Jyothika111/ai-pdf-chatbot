@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI PDF Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🤖 AI PDF Chatbot</h1>
+    <p class="subtitle">Upload any PDF and chat with your documents using AI</p>
+
+    <!-- Upload Section -->
+    <section class="upload-section">
+        <h2>📄 Upload Document</h2>
+
+        <div class="upload-row">
+            <input type="file" id="pdfFile" accept=".pdf">
+            <button id="uploadBtn" onclick="uploadPDF()">Upload PDF</button>
+        </div>
+
+        <!-- Status -->
+        <p id="uploadStatus" class="upload-status"></p>
+
+        <!-- Current uploaded file -->
+        <div id="currentPDF" class="current-pdf"></div>
+    </section>
+
+    <!-- Chat Section -->
+    <section class="chat-section">
+        <h2>💬 Ask Questions</h2>
+
+        <button class="clear-btn" onclick="clearChat()">Clear Chat</button>
+
+        <div class="question-row">
+            <input
+                type="text"
+                id="question"
+                placeholder="Ask anything about the document..."
+            >
+            <button onclick="askQuestion()">Ask</button>
+        </div>
+
+        <div id="chat" class="chat-box"></div>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

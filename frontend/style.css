@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Segoe UI,sans-serif;
+
+    background:#0f172a;
+
+    color:white;
+
+    min-height:100vh;
+
+    padding:30px;
+}
+
+.container{
+
+    max-width:1000px;
+
+    margin:auto;
+}
+
+header{
+
+    text-align:center;
+
+    margin-bottom:40px;
+
+    text-align: center;
+}
+
+header h1{
+
+    font-size:3rem;
+
+    color:#38bdf8;
+
+    margin-bottom:10px;
+
+    text-align: center;
+}
+
+header p{
+
+    color:#cbd5e1;
+
+    font-size:1.1rem;
+
+    text-align: center;
+}
+
+.upload-section,
+.chat-section{
+
+    background:#1e293b;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+h2{
+
+    margin-bottom:20px;
+
+    color:#38bdf8;
+}
+
+input[type="file"]{
+
+    margin-bottom:15px;
+}
+
+input[type="text"]{
+
+    width:80%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:16px;
+}
+
+button{
+
+    padding:12px 20px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#38bdf8;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+button:hover{
+
+    background:#0ea5e9;
+}
+
+.question-box{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:20px;
+}
+
+#chat{
+
+    background:#0f172a;
+
+    min-height:350px;
+
+    border-radius:10px;
+
+    padding:15px;
+
+    overflow-y:auto;
+}
+
+.user-message{
+
+    background:#2563eb;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    margin-bottom:10px;
+
+    text-align:right;
+}
+
+.bot-message{
+
+    background:#334155;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    margin-bottom:10px;
+}
+
+#uploadStatus{
+
+    margin-top:15px;
+
+    color:#4ade80;
+}
+#loading{
+
+    display:none;
+
+    color:#38bdf8;
+
+    margin-bottom:15px;
+
+    font-weight:bold;
+}
+
+#currentPDF{
+
+    margin-top:10px;
+
+    color:#4ade80;
+
+    font-weight:bold;
+}
+
+.clear-btn{
+
+    margin-bottom:15px;
+}
+.upload-status{
+    margin-top:10px;
+    font-weight:600;
+    color:#22c55e;
+}
+.upload-status{
+    margin-top:15px;
+}
+
+.success-box{
+    background:#d1fae5;
+    color:#065f46;
+    padding:12px;
+    border-radius:10px;
+    border-left:5px solid #10b981;
+    font-weight:600;
+}
+
+.error-box{
+    background:#fee2e2;
+    color:#991b1b;
+    padding:12px;
+    border-radius:10px;
+    border-left:5px solid #ef4444;
+    font-weight:600;
+}
+
+.current-pdf{
+    margin-top:10px;
+    color:white;
+    font-weight:500;
+}
+.upload-status{
+    margin-top:12px;
+    font-weight:bold;
+    color:#22c55e;
+}
+
+.current-pdf{
+    margin-top:8px;
+    color:white;
+    font-size:15px;
+}
+
+.upload-row{
+    display:flex;
+    gap:15px;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.question-row{
+    display:flex;
+    gap:10px;
+}
+
+.chat-box{
+    margin-top:20px;
+    min-height:250px;
+}
+
+/* Center the main title and subtitle */
+.container > h1 {
+    text-align: center !important;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.container > .subtitle {
+    text-align: center !important;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,24 @@
+venv/
+__pycache__/
+.env
+*.pyc
+chroma_db/
+uploads/
+
+# Secrets
+.env
+.env.*
+
+# Python environment and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local database and uploaded documents
+chroma_db/
+uploads/
+*.pdf
+
+# Local environment files
+.DS_Store
