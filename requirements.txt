@@ -11,3 +11,4 @@ google-generativeai
 sentence-transformers
 numpy
 Pillow
+pytesseract
